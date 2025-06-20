@@ -74,3 +74,16 @@ https://youtu.be/vtoWxGVx5kA?si=DG7lvUVK3ucVBTBL       Electronoobs follow up vi
 
 Began to desgin coilgun PCB with a rough sketch.
 
+
+June 19th - Log 3
+Started at 8:50 pm
+Ended at 10:40 pm
+Session Time: 1 hr 50 mins
+Total Time: 4 hrs 40 mins
+
+Was busy yesterday so I couldn't do everything that I could do. Today I'm going to just focus fire the PCB design and put good thought into it as it will determine how the coilgun will look. 
+
+Spent most of the time going into various rabbit holes of different electrical parts. Could have been shorter but it's fine. 
+
+Very rough photo of the circuit design. I'll have to refine it later and do some more research into all the pins on the teensy. 
+  ![alt text](image-1.png)
