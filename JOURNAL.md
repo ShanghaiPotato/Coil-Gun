@@ -87,3 +87,33 @@ Spent most of the time going into various rabbit holes of different electrical p
 
 Very rough photo of the circuit design. I'll have to refine it later and do some more research into all the pins on the teensy. 
   ![alt text](image-1.png)
+
+June 21th - Log 4
+Started at 11:30 am
+Took a 1 hr break to eat and walk dog
+Ended at 4:00 pm
+Session Time: 1 hr 50 mins
+Total Time: 4 hrs 40 mins
+
+Main things to do today:
+1.
+    Begin the BOM (even if it is a rough draft) to figure out the cost and finding the parts. 
+2.
+    Finish up researching each part of the components such as the wire size, spacing, capacitor capacitance, and safety features.
+3.
+    Begin to put all of that in the journal for quicker reference and begin to create a tutorial/explanation document. 
+4.
+    If possible finish up the schematics and start putting it on kiCAD.
+
+Quick calculations that are important to the coilgun:
+1.
+    The projectile should leave the barrel after .0075 seconds or 7.5 miliseconds (like playing with a 7.5 ping), so that means we need devices that can respond in microseconds (like the teensy) 1 microsecond = 1/1,000,000 second.
+2.
+    To handle 100 amps of pulse current, I plan on using 14 guage wire as it should hold (and as long as I don't spam the coilgun). 
+3.
+    For each of the coil stages, I plan on 2 inch long coils with an inner diameter of .3 inches and an outer diameter of 2 inches. This does mean though that the coils will probably have to be handwoven.
+Potential links for the BOM:
+https://www.aliexpress.us/item/3256805844530735.html?src=google&pdp_npi=4%40dis%21USD%217.26%217.26%21%21%21%21%21%40%2112000035401398484%21ppc%21%21%21&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256805844530735&ds_e_product_merchant_id=780602513&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19678427463&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=19686402437&gbraid=0AAAAAD6I-hGHNDpM0iIcZmqwdoZnpor_m&gclid=Cj0KCQjwsNnCBhDRARIsAEzia4De12C6hIc_aGuUkQ1mCi7W5En3swpTUHt-JGkklspzJJdDDO49Zf0aApWQEALw_wcB&gatewayAdapt=glo2usa
+https://www.aliexpress.us/item/3256803137393104.html?spm=a2g0o.productlist.main.4.344d5d4fKtE4ho&aem_p4p_detail=2025062111382214154563376233880004464488&algo_pvid=37ba1ed5-cdf7-4fc9-b228-c2198b3a817d&algo_exp_id=37ba1ed5-cdf7-4fc9-b228-c2198b3a817d-3&pdp_ext_f=%7B%22order%22%3A%22815%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.88%213.54%21%21%213.88%213.54%21%402103245417505311026777131e1c62%2112000025211444658%21sea%21US%210%21ABX&curPageLogUid=YBKzzHsToF6V&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2025062111382214154563376233880004464488_1
+https://www.aliexpress.us/item/3256808777064165.html?src=google&pdp_npi=4%40dis%21USD%2117.92%215.86%21%21%21%21%21%40%2112000047399054015%21ppc%21%21%21&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256808777064165&ds_e_product_merchant_id=5582814949&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19678427463&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=19686402437&gbraid=0AAAAAD6I-hGHNDpM0iIcZmqwdoZnpor_m&gclid=Cj0KCQjwsNnCBhDRARIsAEzia4AVE59NkNSb3vcKgFLixu86Wqfh9rRQSVuMHJ4rNFdj-6Ds6YR5oTsaAorGEALw_wcB&gatewayAdapt=glo2usa - 12v 3Ah Lipo Battery
+https://www.mightymaxbattery.com/shop/12v-sla-batteries/ml5-12-12-volt-5-ah-sla-battery/ - 12v 5Ah SLA Battery (Probably better option)
