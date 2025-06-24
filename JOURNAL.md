@@ -22,7 +22,7 @@ Videos Watched for guidance and inspiration:
     https://www.youtube.com/watch?v=QTDcFxTq1Fw           Hacksmith
     https://youtu.be/AwRJsze_9m4?si=WbC6bxTEcL72BCi7      Engineering Mindset: Mosfets (Good guide to how mosfets work and why they are used over transisters)
     https://youtu.be/gADIb1Xw8PE?si=Rg8etwbdkOXKYFJh      Video all about IR and how to send and recieve
-    https://youtu.be/X4EUwTwZ110?si=Mn7Il1-l6g907hk5      Engineering Mindset: Capacitors (Video all about Capacitors and how they work)
+    https://youtu.be/X4EUwTwZ110?si=Mn7Il1-l6g907hk5      Engineering Mindset: Capacitors (Video all about capacitors and how they work)
 
 
 
@@ -130,7 +130,7 @@ List of things:
 1.
     Finish researching the optimal voltage and current flow for the coilgun considering cost, wear, safety, and complexity. 
 2.
-    Design schematics for all the electrical components - On/off switch, boost converty, inductors for the coils, voltage detector, microcontroller wiring. 
+    Design schematics for all the electrical components - On/off switch, boost converter, inductors for the coils, voltage detector, microcontroller wiring. 
 3.
     Design the physical case that the coilgun will be in. 
 
@@ -157,3 +157,29 @@ DC-DC Boost Converter - https://www.aliexpress.us/item/3256809063920342.html?spm
 20A 1000V Diode - https://www.aliexpress.us/item/3256808009577580.html?spm=a2g0o.productlist.main.8.3cae14d5bMksTu&aem_p4p_detail=202506222030244762503293716800006192091&algo_pvid=5cc7d710-6d38-4990-8bdc-69aafab4f526&algo_exp_id=5cc7d710-6d38-4990-8bdc-69aafab4f526-7&pdp_ext_f=%7B%22order%22%3A%228%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%212.41%212.21%21%21%2117.25%2115.82%21%4021030ea417506494247553981ee0d2%2112000044199180347%21sea%21US%210%21ABX&curPageLogUid=8llMqoc7OgXd&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202506222030244762503293716800006192091_2
 
 Article explaining Flyabck Diodes and their importance - https://digilent.com/reference/learn/fundamentals/electronic-components/flyback-diodes/start?srsltid=AfmBOoogx0JYhg6oxVeq-Q9626j1oq6hILmMAzFk_kgQ6rXLRWM8fnhP
+
+June 23th - Log 6
+Started at 2:20 pm
+Ended at 3:00 pm
+Session Time: 40e mins
+Total Time: 10 hrs 50 mins
+
+New list of schematics needed to be made - On/off switch, boost converter, inductors for the coils, voltage detector, microcontroller wiring, voltage display, safety discharge system, trigger detector and safety, and coil selector. 
+
+1. On/off Switch - 
+    Just a single throw single prose switch to connect the battery to the rest of the circuit. 
+2. Boost Converter - 
+    A DC-DC boost converter, it should draw roughly 
+3. Coils - 
+
+4. Voltage Reader - 
+
+5. Microcontroller - 
+
+6. Voltage Display - 
+
+7. Safety Discharge System - 
+
+8. Trigger Detector/Safety - 
+
+9. On/Off for Sepcific Coils - 
